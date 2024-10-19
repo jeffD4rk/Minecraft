@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        height: auto;
+        background-image: url(https://64.media.tumblr.com/ebea5e3f5a97fca254af9facea9fd81f/tumblr_pvfxt4qnND1qemas4o1_540.gifv);
+        background-position:top;
+        background-size: 90%;
+        background-repeat: repeat;
+    }
+
+    #menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #img {
+        margin-top:3%;
+        margin-bottom: -3%;
+        width: 35%;
+    }
+
+    #buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #btn {
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height:35px;
+        font-family: mine;
+        letter-spacing: 2px;
+        background-color: grey;font-weight: lighter;
+
+    }
+    #btn img{
+        width: 30px;
+        margin-left: 30px;
+        margin-right: -50px
+    }
+
+    a{
+        color: rgb(235, 227, 227);
+        text-decoration: none;
+    }
+
+    #buttongap{
+        margin-top: 3%;
+        display: flex;
+        gap: 17px;
+        align-items: center;
+        justify-content: center;
+    }
+    #btn2{
+        width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        background-color: grey;
+        border: 2px solid black;
+    }
+
+    #icon{
+        width: 30px;
+        height: 30px;
+        background-color: grey;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #icone{
+        width: 20px;
+    }
+
+    @font-face {
+        font-family: mine;
+        src: url(Minecraft.ttf);
+    }
+</style>
+
+<body>
+    <div id="menu">
+        <img id="img" src="https://logos-world.net/wp-content/uploads/2020/05/Minecraft-Logo.png">
+        <div id="buttons">
+            <a id="btn" href="">SinglePlayer</a>
+            <a id="btn" href="">MultiPlayer</a>
+            <a id="btn" href="">Minecraft Realms<img src="https://media.forgecdn.net/avatars/thumbnails/343/616/256/256/637488992894226978_animated.gif"></a>
+            <div id="buttongap">
+                <a id="icon" href=""><img id="icone" src="https://bronghast014.weebly.com/uploads/1/2/4/1/124130735/635880300194194406_orig.png"></a>
+                <a id="btn2" href="">Options</a>
+                <a id="btn2" href="">Quit Game</a>
+                <a id="icon" href=""><img id="icone" src="https://bronghast014.weebly.com/uploads/1/2/4/1/124130735/635880300194194406_orig.png"></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
