@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        height: auto;
+        background-image: url(https://64.media.tumblr.com/ebea5e3f5a97fca254af9facea9fd81f/tumblr_pvfxt4qnND1qemas4o1_540.gifv);
+        background-position: top;
+        background-size: 100%;
+        background-repeat: repeat;
+    }
+
+    @keyframes bg {
+        from {
+            background-position-x: -100%;
+        }
+
+        to {
+            background-position-x: 100%;
+        }
+    }
+
+    #menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #img {
+        margin-top: 3%;
+        margin-bottom: -3%;
+        width: 35%;
+    }
+
+    #buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #btn {
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 35px;
+        font-family: mine;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 1px rgb(19, 19, 19);
+        background-size: 100%;
+
+        background-image: url(https://i.pinimg.com/736x/a0/ce/81/a0ce81f10591b00d6dff44ac87be5aec.jpg);
+    }
+
+    #btn:hover,
+    #btn2:hover,
+    #icon:hover {
+        transform: scale(1.08);
+    }
+
+    #btn img {
+        width: 30px;
+        margin-left: 30px;
+        margin-right: -50px
+    }
+
+    a {
+        text-shadow: 2px 2px 20px black;
+        color: rgb(235, 227, 227);
+        text-decoration: none;
+    }
+
+    #buttongap {
+        margin-top: 3%;
+        display: flex;
+        gap: 17px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #btn2 {
+        text-shadow: 2px 2px 1px rgb(19, 19, 19);
+        background-size: 300%;
+        background-image: url(https://i.pinimg.com/736x/a0/ce/81/a0ce81f10591b00d6dff44ac87be5aec.jpg);
+        width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        font-family: mine;
+        background-color: grey;
+        border: 2px solid black;
+    }
+
+    #icon {
+        width: 30px;
+        height: 30px;
+        background-color: grey;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #icone {
+        background-size: 3000%;
+        background-image: url(https://i.pinimg.com/736x/a0/ce/81/a0ce81f10591b00d6dff44ac87be5aec.jpg);
+        width: 25px;
+    }
+
+    @font-face {
+        font-family: mine;
+        src: url(Minecraft.ttf);
+    }
+
+    #perguntas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: mine;
+        color: white;
+        letter-spacing: 4px;
+        border: 2px solid black;
+        justify-content: center;
+        height: 200px;
+        text-shadow: 2px 2px 1px rgb(19, 19, 19);
+        background-size: 100%;
+        margin: 5%;
+        width: 90%;
+        backdrop-filter: blur(20px)  brightness(70%);
+
+    }
+
+    #respostas{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10%;
+    }
+
+    #cardresp{
+        width: 200px;
+        height: 100px;
+        backdrop-filter: blur(10px) ;
+        color: white;
+        border: 2px solid black;
+
+    }
+    #span{
+        margin-bottom: 2%;
+    }
+</style>
+
+<body>
+    <div id="menu">
+        <div id="perguntas">
+            <h1>Pergunta 1</h1>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos facere inventore ab voluptas quibusdam quis
+                doloribus quod hic amet alias, itaque sapiente consectetur consequuntur impedit beatae debitis ex
+                cupiditate laboriosam.</h3>
+                <span>*10 pontos*</span>
+        </div>
+
+        <div id="respostas">
+
+            <div id="cardresp">
+                <span>1</span>
+                <h3>resposta 1</h3>
+            </div>
+
+            <div id="cardresp">
+                <span>2</span>
+                <h3>resposta 2</h3>
+            </div>
+
+            <div id="cardresp">
+                <span>3</span>
+                <h3>resposta 3</h3>
+            </div>
+
+            <div id="cardresp">
+                <span>4</span>
+                <h3>resposta 4</h3>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
