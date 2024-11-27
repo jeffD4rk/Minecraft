@@ -53,8 +53,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 300px;
-        height: 35px;
+        width: 340px;
+        height: 45px;
         font-family: mine;
         letter-spacing: 2px;
         text-shadow: 2px 2px 1px rgb(19, 19, 19);
@@ -139,29 +139,48 @@
         background-size: 100%;
         margin: 5%;
         width: 90%;
-        backdrop-filter: blur(20px)  brightness(70%);
+        backdrop-filter: blur(20px) brightness(70%);
 
     }
 
-    #respostas{
+    #respostas {
         display: flex;
         width: 100%;
+
         justify-content: center;
         align-items: center;
         text-align: center;
         gap: 10%;
     }
 
-    #cardresp{
+    #cardresp {
         width: 200px;
-        height: 100px;
-        backdrop-filter: blur(10px) ;
+        height: auto;
+        padding: 4px 10px;
+        background-color: rgb(25, 70, 107);
+        background-position: center;
+        background-size: 100%;
         color: white;
         border: 2px solid black;
 
     }
-    #span{
-        margin-bottom: 2%;
+
+    #cardresp h3 {
+        bottom: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        width: 400px;
+        height: auto;
+        padding: 5px 10px;
+        border-radius: 8px;
+        border: 2px solid black;
+        background-color: rgb(25, 70, 107);
+    }
+
+    #contagem h1 {
+        font-size: 20px;
     }
 </style>
 
@@ -172,7 +191,7 @@
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos facere inventore ab voluptas quibusdam quis
                 doloribus quod hic amet alias, itaque sapiente consectetur consequuntur impedit beatae debitis ex
                 cupiditate laboriosam.</h3>
-                <span>*10 pontos*</span>
+            <span>*10 pontos*</span>
         </div>
 
         <div id="respostas">
@@ -196,6 +215,12 @@
                 <span>4</span>
                 <h3>resposta 4</h3>
             </div>
+
+        </div>
+
+        <div id="contagem">
+            <h1>PONTOS:<h2 id="pontos">0</h2>
+            </h1>
 
         </div>
     </div>
